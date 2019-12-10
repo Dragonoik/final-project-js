@@ -1,0 +1,60 @@
+.main-text{
+	color: grey;
+	font-size: 20px;
+	margin: 100px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 1000;
+}
+.modal .modal_content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index: 99999;
+}
+.modal .modal_content .close_modal_window, .close_modal_window_snake {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal-tetris{
+	width: 20%;
+	height: 20%;
+	margin: 0 0 0 10%;
+	background-color: #1e1e1e;
+	position: absolute;
+	transition: all 0.3s ease;
+}
+
+.modal-snake{
+	width: 20%;
+	height: 20%;
+	margin: 0 0 0 40%;
+	background-color: #1e1e1e;
+	position: absolute;
+	transition: all 0.3s ease;
+}
+
+.modal-tetris:hover, .modal-snake:hover{
+	box-shadow: inset 0 0 0 10px #ff7800;
+	background-color: #905111;
+}
+
+.text-align-center{
+	text-align: center;
+}

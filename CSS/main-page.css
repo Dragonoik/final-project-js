@@ -1,0 +1,22 @@
+.button-tetris{
+	width: 20%;
+	height: 20%;
+	margin: 12% 0 0 10%;
+	background-color: #1e1e1e;
+	position: absolute;
+	transition: all 0.3s ease;
+}
+
+.button-snake{
+	width: 20%;
+	height: 20%;
+	margin: 12% 0 0 40%;
+	background-color: #1e1e1e;
+	position: absolute;
+	transition: all 0.3s ease;
+}
+
+.button-snake:hover, .button-tetris:hover{
+	box-shadow: inset 0 0 0 10px #ff7800;
+	background-color: #905111;
+}

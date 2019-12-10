@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+	<link rel="stylesheet" type="text/css" href="CSS/about_us.css">
+</head>
+<body>
+	<header>
+		<div class="header">
+			<a href="index.html">
+				<div class="header-button-1">
+					<span>Главная</span>
+				</div>
+			</a>
+			<a href="about_us.html">
+				<div class="header-button-2">
+					<span>О нас</span>
+				</div>
+			</a>
+		</div>
+	</header>
+	<main>
+		<div class="main">
+			<div class="main-page">
+				<p class="main-text">Добро пожаловать на наш сайт. Здесь вы можете отвелечься от повседневной суеты, поиграть в игры и почитать про управление.</p>
+				<div id="btn_modal_window" class="modal-tetris"><p class="text-align-center">TETRIS</p></div>
+				<div id="my_modal" class="modal">
+					<div class="modal_content">
+						<span class="close_modal_window">×</span>
+						<h3>Управление: тетрис</h3>
+						<p>Движение фигурок производится стрелками вправо и влево.</p>
+						<p>Что бы быстро опустить фигуру зажмите стрелку вниз.</p>
+						<p>Поворот осуществляется стрелкой вверх.</p>
+					</div>
+				</div>
+				<div id="btn_modal_snake" class="modal-snake"><p class="text-align-center">SNAKE</p></div>
+				<div id="my_modal_snake" class="modal">
+					<div class="modal_content">
+						<span class="close_modal_window_snake">×</span>
+						<h3>Управдение: змейка</h3>
+						<p>Всё джижение производится кнопками стрелок.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<script src="JS/modal-tetris.js"></script>
+	<script src="JS/modal-snake.js"></script>
+</body>
+</html>
